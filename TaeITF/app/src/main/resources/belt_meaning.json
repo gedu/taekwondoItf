@@ -1,0 +1,123 @@
+[
+ {
+  "name": "Saju-Jirugi",
+  "gup":"10º gup",
+  "mov_count": 7,
+  "graph_url_img": "http://www.itf-aeit.com.ar/images/5r0i5t8qoq.jpg",
+  "pre_position": "Posición con pies paralelos",
+  "meaning": "Forma básica de puño, ataque en cruz, consta de ocho (7) movimientos, se realiza primero con la mano derecha y luego con la mano izquierda en total con ambas manos son 14 movimientos.",
+  "desc": "En el diagrama el estudiante está en la posición preparatoria parado en la línea AB, de frente hacia D.",
+  "step_by_step": "",
+  "color": "bl"
+ },
+ {
+  "name": "Saju-Makgui",
+  "gup":"10º gup",
+  "mov_count": 8,
+  "graph_url_img": "http://www.itf-aeit.com.ar/images/5r0i5t8qoq.jpg",
+  "pre_position": "Posición con pies paralelos",
+  "meaning": "Forma básica de defensa, defensa en cruz, consta de siete (8) movimientos, se realiza primero con la mano derecha y luego con la mano izquierda en total con ambas manos son 16 movimientos.",
+  "desc": "En el diagrama el estudiante está en la posición preparatoria parado en la línea AB, de frente hacia D.",
+  "step_by_step": "",
+  "color": "bl"
+ },
+ {
+  "name": "Chon-Ji",
+  "gup":"9º gup",
+  "mov_count": 19,
+  "graph_url_img": "http://www.itf-aeit.com.ar/images/5r0i5t8qoq.jpg",
+  "pre_position": "Posición con pies paralelos",
+  "meaning": "Significa literalmente “El Cielo y la Tierra”. En oriente se interpreta como la creación del mundo o el comienzo de la historia humana. Por consiguiente, es la primera forma que ha de aprender un principiante. Esta forma consiste en dos partes similares, una representa el cielo y la otra la tierra.",
+  "desc": "En el diagrama el estudiante está en la posición preparatoria parado en C, de frente hacia D.",
+  "step_by_step": "step-chon-ji",
+  "color": "blam"
+ },
+ {
+  "name": "Dan-Gun",
+  "gup":"8º gup",
+  "mov_count": 21,
+  "graph_url_img": "http://www.itf-aeit.com.ar/images/u3fqfgos10.jpg",
+  "pre_position": "Posición con pies paralelos",
+  "meaning": "En honor al santo del mismo nombre. Dan-Gun es el legendario fundador de Corea en el año 2333 A.C.",
+  "desc": "En el diagrama el estudiante está en la posición preparatoria parado en la línea AB, de frente hacia D.",
+  "step_by_step": "step-dan-gun",
+  "color": "am"
+ },
+ {
+  "name": "Do-San",
+  "gup":"7º gup",
+  "mov_count": 24,
+  "graph_url_img": "http://www.itf-aeit.com.ar/images/aovei7pohu.jpg",
+  "pre_position": "Posición con pies paralelos",
+  "meaning": "Es el seudónimo del patriota Ahn Chang-Ho (1876-1938), los 24 movimientos representan su vida, la cual dedicó a promover la educación de Corea y su independencia.",
+  "desc": "En el diagrama el estudiante está en la posición preparatoria parado en la línea AB, de frente hacia D.",
+  "step_by_step": "step-do-san",
+  "color": "amve"
+ },
+ {
+  "name": "Won-Hyo",
+  "gup":"6º gup",
+  "mov_count": 28,
+  "graph_url_img": "http://www.itf-aeit.com.ar/images/pn3wst0792.jpg",
+  "pre_position": "Posición cerrada A",
+  "meaning": "Fue el monje que introdujo el Budismo en la dinastía Silla en el año 686 A.C.",
+  "desc": "En el diagrama el estudiante está en la posición preparatoria parado en C, de frente hacia D.",
+  "step_by_step": "step-won-hyo",
+  "color": "ve"
+ },
+ {
+  "name": "Yul-Gok",
+  "gup":"5º gup",
+  "mov_count": 38,
+  "graph_url_img": "http://www.itf-aeit.com.ar/images/29p835eheq.jpg",
+  "pre_position": "Posición con pies paralelos",
+  "meaning": "Es el seudónimo del gran filósofo y maestro Yil (1536-1584), que fue apodado el Confucio de Corea. Los 38 movimientos de esta forma hacen referencia a su lugar de nacimiento a 38º de latitud. El diagrama representa al “Maestro”.",
+  "desc": "En el diagrama el estudiante está en la posición preparatoria parado en C, de frente hacia D.",
+  "step_by_step": "step-yul-gok",
+  "color": "veaz"
+ },
+ {
+  "name": "Joong-Go",
+  "gup":"4º gup",
+  "mov_count": 32,
+  "graph_url_img": "http://www.itf-aeit.com.ar/images/hc32y1jsjc.jpg",
+  "pre_position": "Posición cerrada B",
+  "meaning": "Recuerda al patriota Ahn Joong-Gun, que mató a Hiro-Bumi Ito, el primer gobernador general Japonés, conocido como el hombre que impulsó a la fusión de Corea y Japón. En esta forma hay 32 movimientos para representar la edad del señor Ahn cuando fue ejecutado en la prisión de Lui-Shung (1910).",
+  "desc": "En el diagrama el estudiante está en la posición preparatoria parado en C, de frente hacia D.",
+  "step_by_step": "step-joong-go",
+  "color": "az"
+ },
+ {
+  "name": "Toy-Gye",
+  "gup":"3º gup",
+  "mov_count": 37,
+  "graph_url_img": "http://www.itf-aeit.com.ar/images/lcjpk365l7.jpg",
+  "pre_position": "Posición cerrada B",
+  "meaning": "Es el seudónimo del notable maestro Yi Hwang (siglo XVI) una autoridad en el Neo Confusionismo. Los 37 movimientos de la forma hacen referencia a los 37º de latitud del lugar de nacimiento, el diagrama representa al “Maestro”.",
+  "desc": "En el diagrama el estudiante está en la posición preparatoria parado en C, de frente hacia D.",
+  "step_by_step": "step-toy-gye",
+  "color": "azro"
+ },
+ {
+  "name": "Hwa-Rang",
+  "gup":"2º gup",
+  "mov_count": 29,
+  "graph_url_img": "http://www.itf-aeit.com.ar/images/u3fqfgos10.jpg",
+  "pre_position": "Posición cerrada C",
+  "meaning": "Recuerda a un grupo de jóvenes guerreros denominados Hwa Rang, originarios de la dinastía Silla, al comienzo del siglo VII. Los 29 movimientos hacen referencia a la 29º División de Infantería, donde el Taekwon-Do floreció.",
+  "desc": "En el diagrama el estudiante está en la posición preparatoria parado en C, de frente hacia D.",
+  "step_by_step": "step-hwa-rang",
+  "color": "ro"
+ },
+ {
+  "name": "Choong-Moo",
+  "gup":"1º Gup",
+  "mov_count": 30,
+  "graph_url_img": "http://www.itf-aeit.com.ar/images/hjf392kcym.jpg",
+  "pre_position": "Posición con pies paralelos",
+  "meaning": "Era el nombre dado al gran almirante Yi Soon-Sin de la dinastía Yi. Se le atribuye haber inventado la primer nave de combate blindada (Kobukson) en 1592, la que sería precursora del actual submarino. La razón por la que esta forma finaliza con un ataque con la mano izquierda es para simbolizar su tremenda muerte, por la cual no tuvo oportunidad de mostrar su gran potencial y su lealtad al Rey.",
+  "desc": "En el diagrama el estudiante está en la posición preparatoria parado en C, de frente hacia D.",
+  "step_by_step": "step-choong-moo",
+  "color": "rone"
+ }
+]
