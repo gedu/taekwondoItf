@@ -148,15 +148,15 @@ public class Belt {
 
     @Override
     public String toString() {
-        return "name"+ name
-                +"gup"+ gup
-                +"movCount"+ movCount
-                +"graphUrlImg"+ graphUrlImg
-                +"prePosition"+ prePosition
-                +"meaning"+ meaning
-                +"desc"+ desc
-                +"stepByStep"+ stepByStep
-                +"color"+ color;
+        return "name: "+ name
+                +"gup: "+ gup
+                +"movCount: "+ movCount
+                +"graphUrlImg: "+ graphUrlImg
+                +"prePosition: "+ prePosition
+                +"meaning: "+ meaning
+                +"desc: "+ desc
+                +"stepByStep: "+ stepByStep
+                +"color: "+ color;
     }
 
 }
