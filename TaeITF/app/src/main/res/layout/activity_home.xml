@@ -21,7 +21,6 @@
     android:adjustViewBounds="true"
     android:contentDescription="@null"
     android:scaleType="centerCrop"
-    android:src="@drawable/ic_launcher_background"
     app:layout_constraintBottom_toTopOf="@+id/mid_guide"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
