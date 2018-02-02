@@ -8,6 +8,7 @@ import dagger.BindsInstance;
 import dagger.Component;
 import dagger.android.AndroidInjectionModule;
 
+@AppScope
 @Component(modules = {
     AndroidInjectionModule.class,
     AppModule.class,

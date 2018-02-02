@@ -1,4 +1,4 @@
-package com.roae.taeitf.taeitf.common.baseactivity;
+package com.roae.taeitf.taeitf.common.base;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;

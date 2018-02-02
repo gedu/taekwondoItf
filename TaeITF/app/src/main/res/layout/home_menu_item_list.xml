@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:foreground="?android:attr/selectableItemBackground"
+  app:cardUseCompatPadding="true">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/home_menu_item_content_padding"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+      android:id="@+id/menu_icon_image"
+      android:layout_width="@dimen/home_menu_item_icon_size"
+      android:layout_height="@dimen/home_menu_item_icon_size"
+      android:layout_gravity="center"
+      android:contentDescription="@null"
+      tools:src="@drawable/ic_color_history"/>
+
+    <TextView
+      android:id="@+id/menu_icon_title"
+      style="@style/TextAppearance.AppCompat.Caption"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/medium"
+      android:gravity="center"
+      tools:text="@string/belt_title"/>
+
+  </LinearLayout>
+
+</android.support.v7.widget.CardView>

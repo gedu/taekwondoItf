@@ -10,11 +10,11 @@ import javax.inject.Singleton;
 import dagger.Module;
 import dagger.Provides;
 
+@Singleton
 @Module(subcomponents = { HomeSubComponent.class })
-public class AppModule {
+class AppModule {
 
   @Provides
-  @Singleton
   Context provideContext(Application application) {
     return application;
   }
