@@ -1,26 +1,37 @@
 package com.roae.taeitf.taeitf.home;
 
-public class HomeMenuItem {
+import com.roae.taeitf.taeitf.common.navigation.Navigable;
+import com.roae.taeitf.taeitf.common.navigation.Navigation;
+import com.roae.taeitf.taeitf.common.navigation.NavigationData;
 
-  private int id;
-  private int iconRes;
-  private int textRes;
+public class HomeMenuItem implements Navigable {
 
-  public HomeMenuItem(int id, int iconRes, int textRes) {
+  private final int id;
+  private final int iconRes;
+  private final int textRes;
+  private final Class<?> activityToGo;
+
+  public HomeMenuItem(int id, int iconRes, int textRes, Class<?> activityToGo) {
     this.id = id;
     this.iconRes = iconRes;
     this.textRes = textRes;
+    this.activityToGo = activityToGo;
   }
 
   public int getId() {
     return id;
   }
 
-  public int getIconRes() {
+  int getIconRes() {
     return iconRes;
   }
 
-  public int getTextRes() {
+  int getTextRes() {
     return textRes;
+  }
+
+  @Override
+  public Navigation newNavigationInstance() {
+    return new NavigationData(activityToGo);
   }
 }

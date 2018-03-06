@@ -7,7 +7,7 @@ import dagger.Module;
 import dagger.Provides;
 
 @Module
-public class HomeModule {
+class HomeModule {
 
   @Provides
   HomeContract.View provideHomeView(HomeActivity homeActivity) {
@@ -20,8 +20,8 @@ public class HomeModule {
   }
 
   @Provides
-  HomeMenuAdapter provideMenuAdapter() {
-    return new HomeMenuAdapter();
+  HomeMenuAdapter.HomeMenuListener provideHomeMenuListener(HomeActivity homeActivity) {
+    return homeActivity;
   }
 
   @Provides GridLayoutManager provideGridMenuManager(Context context) {

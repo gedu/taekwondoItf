@@ -13,14 +13,23 @@ import com.roae.taeitf.taeitf.common.base.MenuFactory;
 
 import java.util.List;
 
+import javax.inject.Inject;
+
 import butterknife.BindView;
 
 public class HomeMenuAdapter extends RecyclerView.Adapter<HomeMenuAdapter.MenuViewHolder> {
 
-  private List<HomeMenuItem> menuItems;
+  interface HomeMenuListener {
+    void onMenuItemClick(HomeMenuItem menuItem);
+  }
 
-  HomeMenuAdapter() {
-    menuItems = MenuFactory.getMenus();
+  private List<HomeMenuItem> menuItems;
+  private HomeMenuListener listener;
+
+  @Inject
+  HomeMenuAdapter(HomeMenuListener listener) {
+    this.listener = listener;
+    this.menuItems = MenuFactory.getMenus();
   }
 
   @Override
@@ -59,7 +68,7 @@ public class HomeMenuAdapter extends RecyclerView.Adapter<HomeMenuAdapter.MenuVi
 
     @Override
     public void onClick(View v) {
-
+      listener.onMenuItemClick(menuItems.get(getAdapterPosition()));
     }
   }
 }

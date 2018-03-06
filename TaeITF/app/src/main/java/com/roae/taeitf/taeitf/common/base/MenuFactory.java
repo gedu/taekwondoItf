@@ -1,6 +1,7 @@
 package com.roae.taeitf.taeitf.common.base;
 
 import com.roae.taeitf.taeitf.R;
+import com.roae.taeitf.taeitf.home.HomeActivity;
 import com.roae.taeitf.taeitf.home.HomeMenuItem;
 
 import java.util.ArrayList;
@@ -21,13 +22,13 @@ public class MenuFactory {
   private static List<HomeMenuItem> menus;
   static {
     HomeMenuItem historyMenu = new HomeMenuItem(HISTORY_MENU_ID,
-        R.drawable.ic_color_history, R.string.history_title);
+        R.drawable.ic_color_history, R.string.history_title, HomeActivity.class);
 
     HomeMenuItem theoryMenu = new HomeMenuItem(THEORY_MENU_ID,
-        R.drawable.ic_color_theory, R.string.theory_title);
+        R.drawable.ic_color_theory, R.string.theory_title, HomeActivity.class);
 
     HomeMenuItem beltMenu = new HomeMenuItem(BELT_MENU_ID,
-        R.drawable.ic_color_belts, R.string.belt_title);
+        R.drawable.ic_color_belts, R.string.belt_title, HomeActivity.class);
 
     menus = new ArrayList<>(3);
     menus.add(historyMenu);

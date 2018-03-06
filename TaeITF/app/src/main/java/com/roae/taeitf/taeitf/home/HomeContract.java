@@ -7,6 +7,6 @@ public interface HomeContract {
   }
 
   interface Presenter {
-
+    void fruta();
   }
 }

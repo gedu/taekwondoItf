@@ -6,15 +6,18 @@ import android.support.v7.widget.RecyclerView;
 
 import com.roae.taeitf.taeitf.R;
 import com.roae.taeitf.taeitf.common.base.ButterActivity;
+import com.roae.taeitf.taeitf.common.navigation.NavigationManager;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
 
-public class HomeActivity extends ButterActivity implements HomeContract.View {
+public class HomeActivity extends ButterActivity
+    implements HomeContract.View, HomeMenuAdapter.HomeMenuListener {
 
   @Inject GridLayoutManager layoutManager;
   @Inject HomeMenuAdapter menuAdapter;
+  @Inject NavigationManager navigationManager;
 
   @BindView(R.id.home_menu) RecyclerView menuRecycler;
 
@@ -30,4 +33,8 @@ public class HomeActivity extends ButterActivity implements HomeContract.View {
     menuRecycler.setAdapter(menuAdapter);
   }
 
+  @Override
+  public void onMenuItemClick(HomeMenuItem menuItem) {
+    navigationManager.navigateWith(menuItem.newNavigationInstance());
+  }
 }
