@@ -1,6 +1,7 @@
 package com.roae.taeitf.taeitf.common.base;
 
 import com.roae.taeitf.taeitf.R;
+import com.roae.taeitf.taeitf.beltmeaning.BeltActivity;
 import com.roae.taeitf.taeitf.home.HomeActivity;
 import com.roae.taeitf.taeitf.home.HomeMenuItem;
 
@@ -28,7 +29,7 @@ public class MenuFactory {
         R.drawable.ic_color_theory, R.string.theory_title, HomeActivity.class);
 
     HomeMenuItem beltMenu = new HomeMenuItem(BELT_MENU_ID,
-        R.drawable.ic_color_belts, R.string.belt_title, HomeActivity.class);
+        R.drawable.ic_color_belts, R.string.belt_title, BeltActivity.class);
 
     menus = new ArrayList<>(3);
     menus.add(historyMenu);

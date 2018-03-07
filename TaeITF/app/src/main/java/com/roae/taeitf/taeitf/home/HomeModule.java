@@ -7,7 +7,7 @@ import dagger.Module;
 import dagger.Provides;
 
 @Module
-class HomeModule {
+public class HomeModule {
 
   @Provides
   HomeContract.View provideHomeView(HomeActivity homeActivity) {

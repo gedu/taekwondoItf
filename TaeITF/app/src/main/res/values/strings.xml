@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ar">
-  <string name="app_name">Tae ITF</string>
-  <string name="history_title">Historia</string>
-  <string name="theory_title">Teoria</string>
-  <string name="belt_title">Cinturones</string>
+    <string name="app_name">Tae ITF</string>
+    <string name="history_title">Historia</string>
+    <string name="theory_title">Teoria</string>
+    <string name="belt_title">Cinturones</string>
 </resources>
