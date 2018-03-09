@@ -1,5 +1,6 @@
 package com.roae.taeitf.taeitf.common.navigation;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,10 +15,10 @@ import javax.inject.Inject;
  */
 public class NavigationManager {
 
-  private Context context;
+  private Activity context;
 
   @Inject
-  public NavigationManager(Context context) {
+  public NavigationManager(Activity context) {
     this.context = context;
   }
 

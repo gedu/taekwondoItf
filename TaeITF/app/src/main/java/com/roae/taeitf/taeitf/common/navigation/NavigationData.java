@@ -1,5 +1,6 @@
 package com.roae.taeitf.taeitf.common.navigation;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -31,7 +32,7 @@ public class NavigationData implements Navigation {
   }
 
   @Override
-  public void navigate(Context context) {
-    ActivityCompat.startActivity(context, intent, null);
+  public void navigate(Activity activity) {
+    ActivityCompat.startActivity(activity, intent, null);
   }
 }

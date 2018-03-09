@@ -1,5 +1,6 @@
 package com.roae.taeitf.taeitf.common.navigation;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 
@@ -11,5 +12,5 @@ public interface Navigation {
 
   NavigationData init(Context context);
   NavigationData putExtras(Bundle extras);
-  void navigate(Context context);
+  void navigate(Activity activity);
 }
